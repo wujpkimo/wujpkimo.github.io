@@ -1,12 +1,8 @@
-article {
-    font-family: sans-serif;
-    font-size: 25px;
-    font-style: oblique;
-    font-weight: 900;
-    color: blue;
-}
-
-article>span {
-    color: red;
-    text-decoration: underline;
+div {
+    width: 120px;
+    height: 120px;
+    background-image: url("https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/montage-g1.jpg");
+    color: white;
+    background-size: initial;
+background-position: -120px 0px;
 }
