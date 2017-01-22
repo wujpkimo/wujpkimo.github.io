@@ -1,0 +1,14 @@
+[id^="post-"] {
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+}
+
+[href$=".pdf"] {
+    padding-left: 25px;
+    background-image: url(/Images/pdf.png);
+    background-repeat: no-repeat;
+    background-size: 25px 15px;
+    line-height: 25px;
+    text-decoration: none;
+}

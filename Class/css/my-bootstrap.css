@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* reset css */
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+header,
+footer,
+asite,
+article,
+section,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+.thumbnail {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: calc(100%/3);
+    float=left;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail .caption>h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.caption p {
+    font-size: 16px;
+}

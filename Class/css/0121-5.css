@@ -1,0 +1,38 @@
+.text:before {
+    content: "";
+    background-color: aqua;
+    display: inline-block;
+    width: 100px;
+    border: 1px solid;
+}
+
+.text:after {
+    content: "";
+    background-color: aqua;
+    display: inline-block;
+    width: 100px;
+    border: 1px solid;
+}
+
+.thumbnail {
+    width: 400px;
+    height: 300px;
+    position: relative;
+}
+
+.thumbnail:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: aqua;
+    opacity: 0.5;
+    content: "";
+    display: block;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.thumbnail:hover:after {
+    opacity: 0;
+}

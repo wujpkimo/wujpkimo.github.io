@@ -1,0 +1,48 @@
+.thumbnail {
+    width: calc(100%/3);
+}
+
+nav li>ul {
+    display: none;
+    /*    不顯示*/
+}
+
+nav li:hover>ul {
+    display: block;
+    /*    只打開正下方的一個(如果要全開請把>改成空格)*/
+}
+
+nav li:hover {
+    background-color: silver;
+}
+
+nav>ul>li{
+    display: inline;
+}
+
+tr:first-child{
+    background-color: blue;
+    color: white;
+}
+tr:nth-child(2n+3){
+    background-color: aqua;
+}
+
+tr:nth-child(2n){
+    background-color: aquamarine;
+}
+
+div{
+    float: left;
+}
+
+.thumbnail:nth-child(6n+5),
+.thumbnail:nth-child(6n),
+.thumbnail:nth-child(6n+7){
+/*    background-color: aqua;*/
+}
+
+.thumbnail:first-child{
+    width: 100%;
+    background-color: bisque;
+}

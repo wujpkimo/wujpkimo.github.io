@@ -1,0 +1,7 @@
+.thumbnail {
+    width: calc(100%/4);
+}
+
+.thumbnail:nth-child(7n+1) {
+    width: calc(100%/2);
+}
