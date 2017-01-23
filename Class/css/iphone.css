@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+.iphone {
+    background-image: url(/Images/iPhone-6S-Silver.png);
+    background-position: -110px;
+    height: 500px;
+    width: 500px;
+    background-size: 500px;
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background-color: white;
+    border: 3px solid silver;
+    top: 438px;
+    left: 120px;
+}
+
+.pannel {
+    position: absolute;
+    border: 1px solid black;
+    width: 223px;
+    height: 375px;
+    top: 56px;
+    left: 28px;
+    background-color: black;
+}
+
+.case {
+    position: absolute;
+    border: 4px solid #aaa;
+    border-radius: 32px;
+    width: 240px;
+    height: 480px;
+    top: 10px;
+    left: 20px;
+}
+
+.soundswitch {
+    position: absolute;
+    border: 2px solid #aaa;
+    border-radius: 1px;
+    width: 1px;
+    height: 19px;
+    top: 57px;
+    left: 18px;
+}
+
+.volup {
+    position: absolute;
+    border: 2px solid #aaa;
+    border-radius: 1px;
+    width: 1px;
+    height: 30px;
+    top: 100px;
+    left: 18px;
+}
+
+.voldown {
+    position: absolute;
+    border: 2px solid #aaa;
+    border-radius: 1px;
+    width: 1px;
+    height: 30px;
+    top: 143px;
+    left: 18px;
+}
+
+.powerbtn {
+    position: absolute;
+    border: 2px solid #aaa;
+    border-radius: 1px;
+    width: 1px;
+    height: 30px;
+    top: 100px;
+    left: 258px;
+}
+
+.speaker {
+    position: absolute;
+    border: 3px solid #aaa;
+    border-radius: 5px;
+    top: 35px;
+    left: 122px;
+    width: 34px;
+    height: 5px;
+}
+
+.camara {
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    top: 21px;
+    left: 136px;
+}
+
+.sensor {
+    position: absolute;
+    background-color: black;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    top: 34px;
+    left: 93px;
+}

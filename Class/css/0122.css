@@ -1,31 +1,82 @@
-* {
-    box-sizing: border-box;
+nav {
+    overflow: auto;
 }
 
-
-/*重置css*/
-
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-section,
-article nav,
-aside,
-blockquote,
-div,
-pading {
-    margin: 0px;
-    padding: 0px;
+nav>ul li {
+    list-style: none;
+    float: left;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
 }
 
-[id^="box"] {
-    border: 1px solid black;
-    width: 150px;
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: aqua;
+}
+
+.gravatar {
+    width: 100px;
     height: 150px;
+    margin: 0 auto;
+}
+
+.gravatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#box2 {
+    border: 3px solid blue;
+}
+
+
+/*
+.page-number {
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 100px 0px 100px 0px;
+        border: 1px solid black;
+    margin: auto;
+    background-color: lime;
+    color: white;
+    font-size: 16px;
+}
+*/
+
+.col-6 img {
+    float: right;
+}
+
+.ad .thumbnail {
+    border-style: none;
+}
+
+footer {
+    clear: both;
+    color: #eee;
+    height: 250px;
+}
+
+.jumbotron {
+    height: 300px;
+    background-image: url("https://source.unsplash.com/1366x768?nature");
+    color: white;
+    text-align: center;
+    padding: 200px;
+}
+
+.jumbotron h1 {
+    color: white;
 }

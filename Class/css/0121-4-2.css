@@ -1,0 +1,16 @@
+
+
+.thumbnail{
+    width: calc(100%/10);
+        background-color: bisque;
+}
+.thumbnail:first-child{
+    width: calc(100%/10);
+
+}
+
+
+.thumbnail:nth-child(6n+3){
+    background-color: red;
+
+}
