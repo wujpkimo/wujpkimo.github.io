@@ -4,7 +4,7 @@
 
 .iphone {
     background-image: url(/Images/iPhone-6S-Silver.png);
-    background-position: -110px;
+    background-position: 128px;
     height: 500px;
     width: 500px;
     background-size: 500px;
@@ -17,9 +17,9 @@
     height: 39px;
     border-radius: 50%;
     background-color: white;
-    border: 3px solid silver;
+    border: 3px solid #8b8b8b;
     top: 438px;
-    left: 120px;
+    left: 110px;
 }
 
 .pannel {
@@ -28,66 +28,67 @@
     width: 223px;
     height: 375px;
     top: 56px;
-    left: 28px;
+    left: 18px;
     background-color: black;
 }
 
 .case {
     position: absolute;
-    border: 4px solid #aaa;
+    border: 5px solid #8b8b8b;
     border-radius: 32px;
     width: 240px;
     height: 480px;
     top: 10px;
-    left: 20px;
+    left: 10px;
 }
 
 .soundswitch {
     position: absolute;
-    border: 2px solid #aaa;
-    border-radius: 1px;
+    border: 2px solid #8b8b8b;
+    border-radius: 25%;
     width: 1px;
     height: 19px;
     top: 57px;
-    left: 18px;
+    left: 8px;
 }
 
 .volup {
     position: absolute;
-    border: 2px solid #aaa;
-    border-radius: 1px;
+    border: 2px solid #8b8b8b;
+    border-radius: 25%;
     width: 1px;
     height: 30px;
     top: 100px;
-    left: 18px;
+    left: 8px;
 }
 
 .voldown {
     position: absolute;
-    border: 2px solid #aaa;
-    border-radius: 1px;
+    border: 2px solid #8b8b8b;
+    border-radius: 25%;
     width: 1px;
     height: 30px;
     top: 143px;
-    left: 18px;
+    left: 8px;
 }
 
 .powerbtn {
     position: absolute;
-    border: 2px solid #aaa;
-    border-radius: 1px;
+    border: 2px solid #8b8b8b;
+    border-radius: 25%;
+    BORDER
     width: 1px;
     height: 30px;
     top: 100px;
-    left: 258px;
+    left: 249px;
 }
 
 .speaker {
     position: absolute;
-    border: 3px solid #aaa;
+    border: 3px solid #8b8b8b;
     border-radius: 5px;
     top: 35px;
-    left: 122px;
+    left: 112px;
     width: 34px;
     height: 5px;
 }
@@ -99,7 +100,7 @@
     width: 8px;
     height: 8px;
     top: 21px;
-    left: 136px;
+    left: 126px;
 }
 
 .sensor {
@@ -109,5 +110,5 @@
     width: 8px;
     height: 8px;
     top: 34px;
-    left: 93px;
+    left: 83px;
 }

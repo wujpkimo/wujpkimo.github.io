@@ -25,3 +25,8 @@ div {
     background-position: -120px 0px;
 }
 */
+
+.nav {
+    float: left;
+    width: calc(100%/3);
+}
