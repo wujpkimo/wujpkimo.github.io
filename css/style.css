@@ -1,32 +1,33 @@
-#B.ul.li {
-    display: inline;
+body {
+    height: 1vh;
+    background-image: url("https://source.unsplash.com/1366x1024?nature");
+    background-repeat: no-repeat;
 }
 
-div#Logo {
-    width: 20%;
-    line-height: inherit;
-    float: left;
+.container {
+    width: 1024px;
+    margin: auto;
 }
 
-div#nav {
-    width: 80%;
-    line-height: inherit;
-    float: left;
+.thumbnail {
+    border-radius: 5px;
+    padding: 5px;
 }
 
-
-/*
-div {
-    width: 120px;
-    height: 120px;
-    background-image: url("https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/montage-g1.jpg");
-    color: white;
-    background-size: initial;
-    background-position: -120px 0px;
+.thumbnail img {
+    width: 100%;
 }
-*/
 
-.nav {
-    float: left;
-    width: calc(100%/3);
+.logo {
+    width: 500px;
+    height: 100px;
+    background: url("/Images/Logo/wjpstudiologo.png");
+    margin: 40px auto;
+}
+
+.member {
+    height: 180px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: white;
 }
