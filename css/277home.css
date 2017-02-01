@@ -4,20 +4,19 @@
     position: fixed;
     right: 10px;
     bottom: 10px;
-    font-size: 18px;
-    font-family: sans-serif;
     padding: 10px;
-    color: #ff4bce;
 }
 
 .home277 a:link,
 a:active,
 a:visited {
-    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #ff4bce;
     text-decoration: none;
 }
 
-.home277:hover {
+.home277 a:hover {
     color: blue;
     font-style: oblique;
 }
