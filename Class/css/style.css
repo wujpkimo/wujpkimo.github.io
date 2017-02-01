@@ -46,7 +46,8 @@ div{
     width: 100%;
     background-color: bisque;
 }
-.nav {
-    float: left;
-    width:calc(100%/3);
+
+
+nav {
+    
 }
