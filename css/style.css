@@ -25,24 +25,33 @@ body {
     margin: 40px auto;
 }
 
-[id="300h"] {
+header {
     height: 300px;
+    background-image: url(/Images/personalheader.jpg)
 }
 
 nav {
-    width: 600px;
-    height: 30px;
-    margin: 0 auto;
+    color: white;
+    float: right;
+    font-size: 25px;
+    font-family: sans-serif;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+nav a:link,
+a:active,
+a:visited {
+    color: white;
+    text-decoration: none;
 }
 
 nav ul li {
+    list-style-type: none;
+    padding: 2px 15px;
     display: inline;
+}
+
+nav ul li:hover {
+    background-color: deepskyblue;
 }
 
 nav li ul {
@@ -51,4 +60,27 @@ nav li ul {
 
 nav li:hover>ul {
     display: inherit;
+}
+
+.personal {
+    height: 180px;
+    margin: 5px auto;
+    padding: 10px 1px 1px 5px;
+    border: 1px solid #9a9595;
+}
+
+.personal::before {
+    content: ;
+}
+
+.personal:hover {
+    border: 2px solid black;
+    box-shadow: 1px 1px 3px 2px rgba(20%, 20%, 40%, 0.5);
+}
+
+#jobs {
+    background-image: url(/Images/BSY_TchFullLog.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
 }
