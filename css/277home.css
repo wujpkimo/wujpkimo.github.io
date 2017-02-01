@@ -1,8 +1,23 @@
-.277 {
-    width: 100px;
-    height: 100px;
-    float: right;
-    position: absolute;
-    right: 0px;
-    border: 2px solid black;
+.home277 {
+    width: 150px;
+    height: 40px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 10px;
+    color: #ff4bce;
+}
+
+.home277 a:link,
+a:active,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.home277:hover {
+    color: blue;
+    font-style: oblique;
 }
