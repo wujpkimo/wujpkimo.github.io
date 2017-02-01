@@ -8,8 +8,8 @@
 }
 
 .home277 a:link,
-a:active,
-a:visited {
+.home277 a:active,
+.home277 a:visited {
     font-size: 18px;
     font-family: sans-serif;
     color: #ff4bce;
