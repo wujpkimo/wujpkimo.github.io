@@ -28,6 +28,24 @@ body {
 .member {
     height: 180px;
     margin: 10px auto;
-    padding: 20px;
+    padding: 10px 1px 1px 5px;
+    background-color: rgb(242, 242, 242);
+    border: 1px solid #9a9595;
+}
+
+.meber::before {
+    content: ;
+}
+
+.member:hover {
+    border: 2px solid black;
+}
+
+.memberimg {
+    width: 100%;
+    height: -webkit-calc(100% - (18px));
+    height: calc(100% - (18px));
     background-color: white;
+    background-size: 300px;
+    background-position: center;
 }
