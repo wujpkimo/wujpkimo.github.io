@@ -1,0 +1,17 @@
+[class^="col-"] {
+    /*    border: 1px solid;*/
+    height: auto;
+}
+
+[class^="col-"] img {
+    width: 100%;
+}
+
+[class^="col-"] img {
+    width: 100%;
+}
+
+.section[class^="col-"] {
+    background-image: url(https://unsplash.it/1920x1080?random);
+    background-position: top;
+}

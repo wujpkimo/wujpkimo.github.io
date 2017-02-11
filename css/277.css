@@ -19,7 +19,7 @@ a:visited {
 }
 
 .meber::before {
-    content: ;
+    content: "";
 }
 
 .member:hover {
@@ -47,4 +47,14 @@ a:visited {
 #jason {
     background-image: url(/Images/jason.jpg);
     background-position: top;
+}
+
+#yiling {
+    background-image: url(/Images/yiling.jpg);
+    background-repeat: no-repeat
+}
+
+#kyle {
+    background-image: url(/Images/kyle.png);
+    background-repeat: no-repeat
 }

@@ -1,0 +1,19 @@
+.iphoneback {
+    background-image: url(/Images/iPhone-6S-Silver2.png);
+    background-position: -20px;
+    height: 500px;
+    width: 500px;
+    background-size: 290px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.backcase {
+    position: absolute;
+    width: 235px;
+    height: 487px;
+    left: 5px;
+    top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 35px 35px 40px 40px;
+}
