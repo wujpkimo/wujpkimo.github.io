@@ -4,11 +4,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.container {
-    width: 1024px;
-    margin: auto;
-}
-
 .thumbnail {
     border-radius: 5px;
     padding: 5px;
@@ -18,16 +13,11 @@ body {
     width: 100%;
 }
 
-.wjpstudiologo {
-    width: 500px;
-    height: 100px;
-    background: url("/Images/Logo/wjpstudiologo.png");
-    margin: 40px auto;
-}
-
 header {
     height: 300px;
-    background-image: url(/Images/personalheader.jpg)
+    background-image: url(/Images/personalheader.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 nav {
@@ -63,6 +53,7 @@ nav li:hover>ul {
 }
 
 .personal {
+    width: 310px;
     height: 180px;
     margin: 5px auto;
     padding: 10px 1px 1px 5px;
@@ -83,4 +74,28 @@ nav li:hover>ul {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 300px;
+}
+
+#personal {
+    background-color: aquamarine;
+}
+
+#personal:hover {
+    background-color: #ff00d8;
+}
+
+#education {
+    background-color: aquamarine;
+}
+
+#education:hover {
+    background-color: #ff00d8;
+}
+
+#job {
+    background-color: aquamarine;
+}
+
+#job:hover {
+    background-color: #ff00d8;
 }

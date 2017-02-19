@@ -10,16 +10,29 @@ a:visited {
     text-decoration: none;
 }
 
+.wjpstudiologo {
+    width: 500px;
+    height: 100px;
+    background: url("/Images/Logo/wjpstudiologo.png");
+    margin: 40px auto;
+}
+
+@media screen and (max-width:768px) {
+    .wjpstudiologo {
+        width: 350px;
+        height: 70px;
+        background-size: 350px;
+        background-repeat: no-repeat;
+    }
+}
+
 .member {
     height: 180px;
+    width: 310px;
     margin: 10px auto;
     padding: 10px 1px 1px 5px;
     background-color: rgb(242, 242, 242);
     border: 1px solid #9a9595;
-}
-
-.meber::before {
-    content: "";
 }
 
 .member:hover {
@@ -38,23 +51,34 @@ a:visited {
 
 #evan {
     background-image: url(/Images/evan.jpg);
+    background-size: cover;
 }
 
 #ming {
     background-image: url(/Images/ming.jpg);
+    background-size: cover;
 }
 
 #jason {
     background-image: url(/Images/jason.jpg);
     background-position: top;
+    background-size: cover;
 }
 
 #yiling {
     background-image: url(/Images/yiling.jpg);
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #kyle {
     background-image: url(/Images/kyle.png);
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sharon {
+    background-image: url(/Images/shahron.jpg);
+    background-position: top;
+    background-size: cover;
 }
