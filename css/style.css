@@ -76,6 +76,10 @@ nav li:hover>ul {
     background-size: 300px;
 }
 
+section {
+    background-color: aquamarine;
+}
+
 #personal {
     background-color: aquamarine;
 }
