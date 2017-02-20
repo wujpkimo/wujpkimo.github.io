@@ -17,7 +17,7 @@
         }
         
         .traval_country {
-            max-width: 310px;
+            width: 310px;
             height: 140px;
             margin: 0px auto;
             border: 5px solid #ffffff;
@@ -26,6 +26,18 @@
             font-family: sans-serif;
             font-weight: bold;
             background-size: cover;
+        }
+        
+        .traval_country:hover::after {
+            content: "";
+            display: block;
+            width: 310px;
+            height: 140px;
+            top: -120px;
+            left: -5px;
+            background-color: aquamarine;
+            opacity: 0.6;
+            position: relative;
         }
         
         #JP {
