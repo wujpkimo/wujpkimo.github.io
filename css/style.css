@@ -69,15 +69,12 @@ nav li:hover>ul {
     box-shadow: 1px 1px 3px 2px rgba(20%, 20%, 40%, 0.5);
 }
 
-#jobs {
-    background-image: url(/Images/BSY_TchFullLog.png);
+#about {
+    background-image: url(/Images/jason.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 300px;
-}
-
-#personal^section {
-    background-color: aquamarine;
+    text-align: center;
 }
 
 #personal {
