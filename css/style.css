@@ -27,7 +27,7 @@ nav {
     font-family: sans-serif;
 }
 
-nav a:link,
+a:link,
 a:active,
 a:visited {
     color: white;
@@ -55,30 +55,55 @@ nav li:hover>ul {
 .personal {
     width: 310px;
     height: 180px;
-    margin: 5px auto;
-    padding: 10px 1px 1px 5px;
-    border: 1px solid #9a9595;
-}
-
-.personal::before {
-    content: ;
-}
-
-.personal:hover {
-    border: 2px solid black;
-    box-shadow: 1px 1px 3px 2px rgba(20%, 20%, 40%, 0.5);
+    margin: 15px auto;
+    border: 5px solid #ffffff;
 }
 
 #about {
     background-image: url(/Images/jason.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 300px;
+    background-size: cover;
     text-align: center;
+}
+
+#traval {
+    background-image: url(/Images/Traval.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#skill {
+    background-image: url(/Images/skill.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.personal:hover {
+    border: 10px solid #0897ff;
+    box-shadow: 1px 1px 3px 2px rgba(20%, 20%, 40%, 0.5);
+    color: #e200ff;
+}
+
+.personal:hover:after {
+    content: "";
+    display: block;
+    background-color: rgba(235, 255, 0, 0.47);
+    opacity: 0.8;
+    width: 310px;
+    height: 180px;
+    position: relative;
+    top: -110px;
+    left: -10px;
 }
 
 #personal {
     background-color: aquamarine;
+    height: 230px;
 }
 
 #personal:hover {
@@ -87,6 +112,8 @@ nav li:hover>ul {
 
 #education {
     background-color: aquamarine;
+        height: 230px;
+
 }
 
 #education:hover {
@@ -95,8 +122,56 @@ nav li:hover>ul {
 
 #job {
     background-color: aquamarine;
+        height: 230px;
+
 }
 
 #job:hover {
     background-color: #ff00d8;
+}
+
+.wjphome {
+    width: 75px;
+    height: 40px;
+    position: fixed;
+    right: 10px;
+    bottom: 40px;
+    padding: 10px;
+}
+
+.wjphome a:link,
+.wjphome a:active,
+.wjphome a:visited {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #4fff71;
+    text-decoration: none;
+}
+
+.wjphome a:hover {
+    color: #ff0093;
+    font-style: oblique;
+}
+
+.home277 {
+    width: 150px;
+    height: 40px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+}
+
+.home277 a:link,
+.home277 a:active,
+.home277 a:visited {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #ff4bce;
+    text-decoration: none;
+}
+
+.home277 a:hover {
+    color: blue;
+    font-style: oblique;
 }

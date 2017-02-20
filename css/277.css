@@ -14,7 +14,7 @@ a:visited {
     width: 500px;
     height: 100px;
     background: url("/Images/Logo/wjpstudiologo.png");
-    margin: 40px auto;
+    margin: 0px auto;
 }
 
 @media screen and (max-width:768px) {

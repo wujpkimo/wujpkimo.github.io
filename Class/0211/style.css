@@ -16,10 +16,6 @@ section [class^="col-"] {
 }
 */
 
-footer [class^="col-"] img {
-    border-radius: 50%;
-}
-
 header {
     /*    border: 2px solid blue;*/
     height: 300px;
@@ -31,4 +27,5 @@ header {
 .thumbnail img {
     width: 100%;
     max-width: 100%;
+    border-radius: 50%;
 }

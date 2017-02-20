@@ -9,8 +9,53 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="https://wujpkimo.github.io/css/277home.css">
     <style>
-        section {
-            background-color: aquamarine;
+        body {
+            background-image: url(/Images/bgsky.JPG);
+            background-size: cover;
+            height: 100vh;
+            background-color: #5f7dfc
+        }
+        
+        .traval_country {
+            max-width: 310px;
+            height: 140px;
+            margin: 0px auto;
+            border: 5px solid #ffffff;
+            color: #ffffff;
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: bold;
+            background-size: cover;
+        }
+        
+        #JP {
+            background-image: url(/Images/traval/JP/JP.JPG);
+            background-position: bottom;
+        }
+        
+        #TW {
+            background-image: url(/Images/traval/TW/TW.JPG);
+            background-position: TOP;
+        }
+        
+        #US {
+            background-image: url(/Images/traval/US/US.JPG);
+            background-position: TOP;
+        }
+        
+        #CN {
+            background-image: url(/Images/traval/CN/CN.JPG);
+            background-position: TOP;
+        }
+        
+        #IN {
+            background-image: url(/Images/traval/IN/IN.JPG);
+            background-position: top;
+        }
+        
+        #RU {
+            background-image: url(/Images/traval/RU/RU.JPG);
+            background-position: top;
         }
     </style>
 </head>
@@ -20,7 +65,6 @@
         <div class="container" id="300h">
             <nav>
                 <ul>
-                    <li><a href="/index.html">Home</a></li>
                     <li><a href="/personal/about.html">About</a></li>
                     <li><a href="/personal/skill.html">Skill</a></li>
                     <li>Traval</li>
@@ -34,14 +78,33 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6">Taiwan</div>
-                <div class="col-lg-3 col-md-4 col-sm-6">China</div>
-                <div class="col-lg-3 col-md-4 col-sm-6">USA(LA)</div>
-                <div class="col-lg-3 col-md-4 col-sm-6">India</div>
-                <div class="col-lg-3 col-md-4 col-sm-6">Russia</div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="traval_country" id="TW"><br><br><br><br>Taiwan</div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="traval_country" id="CN"><br><br><br><br>China</div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="traval_country" id="US"><br><br><br><br>USA(LA)</div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="traval_country" id="IN"><br><br><br><br>India</div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="traval_country" id="RU"><br><br><br><br>Russia</div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="traval_country" id="JP"><br><br><br><br>Janpan</div>
+                </div>
             </div>
         </div>
     </section>
+    <div class="wjphome">
+        <a href="/index.html">Home</a>
+    </div>
+    <div class="home277">
+        <a href="/277.html">WJP STUDIOS</a>
+    </div>
 </body>
 
 </html>
