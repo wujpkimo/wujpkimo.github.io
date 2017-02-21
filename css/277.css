@@ -3,7 +3,7 @@ header {
     height: auto;
 }
 
-[class^="col-4"] a:link,
+a:link,
 a:active,
 a:visited {
     color: black;
